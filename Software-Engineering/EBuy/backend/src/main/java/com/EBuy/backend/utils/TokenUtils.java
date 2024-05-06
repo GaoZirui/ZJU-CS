@@ -32,6 +32,7 @@ public class TokenUtils {
 //        return JWT.create().withAudience(userID)
 //                .withExpiresAt(DateUtil.offsetHour(new Date(), 2))
 //                .sign(Algorithm.HMAC256(sign));
+        return null;
     }
 
     public static User getCurrentUser() {
